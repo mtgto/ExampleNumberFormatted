@@ -7,9 +7,6 @@ let package = Package(
     name: "example-formatted",
     platforms: [.macOS(.v13)],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .executableTarget(
-            name: "example-formatted"),
+        .executableTarget(name: "example-formatted"),
     ]
 )
